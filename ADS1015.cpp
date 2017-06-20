@@ -8,11 +8,11 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <bcm2835.h>
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 #include <unistd.h>
 #include "ADS1015.h"
-#include "../../Libraries/Timer/AccurateTiming.h"
+#include "libraries/robotois-timer/AccurateTiming.h"
 
 ADS1015::ADS1015(uint8_t _addr) {
     uint8_t result;

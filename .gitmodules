@@ -1,0 +1,3 @@
+[submodule "libraries/robotois-timer"]
+	path = libraries/robotois-timer
+	url = https://github.com/Robotois/robotois-timer.git
